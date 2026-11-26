@@ -1,6 +1,13 @@
-# Prompts de imagem da Werlang
+# Guia de prompts da Werlang
 
 Escolha um dos prompts abaixo, substitua os campos entre colchetes e anexe as referências indicadas. Cada bloco pode ser copiado por inteiro. Para usar uma página do manual como referência, anexe uma captura dessa página. Quando o conteúdo for sobre uma unidade, pessoa, veículo ou procedimento real da Werlang, use fotos verificadas como base. Identifique cenas geradas como ilustrações quando puderem ser confundidas com registros da operação.
+
+- [Imagens para site](#site), [relatórios e apresentações](#relatórios-e-apresentações) e [redes sociais e mockups](#redes-sociais-e-materiais-internos)
+- [Papéis impressos e papelaria](#papéis-impressos-e-papelaria)
+- [Relatórios completos](#relatórios-completos)
+- [Planilhas e relatórios em Excel](#planilhas-e-relatórios-em-excel)
+- [Relatórios e painéis em HTML](#relatórios-e-painéis-em-html)
+- [Convites impressos e digitais](#convites-impressos-e-digitais)
 
 ## Direção visual
 
@@ -136,3 +143,85 @@ Crie uma fotografia de mockup 3:2 de [cartão de visitas, pasta ou capa impressa
 3. Em relatórios e materiais institucionais, confirme origem da imagem, nomes e números. Use fotos verificadas sempre que a peça identificar uma pessoa, instalação ou atividade real.
 
 Para ajustar uma geração, peça uma mudança por vez. Por exemplo, “Amplie a área escura livre à esquerda de 30% para 40% da largura. Preserve o sujeito, o enquadramento à direita, a luz lateral e o tratamento azul.”
+
+## Papéis impressos e papelaria
+
+Para os prompts 12 a 21, peça que sejam criados os arquivos finais indicados em cada bloco. Use a [assinatura oficial](#assinaturas-para-aplicar-depois) e a [fonte Zalando Sans](../Fontes) como arquivos de composição. Para arte de gráfica, forneça as especificações de produção disponíveis, como tamanho final, sangria, margem interna, papel, acabamento e perfil de cor.
+
+### 12. Papel timbrado, carta ou comunicado
+
+```text
+Crie um modelo editável da Werlang para [papel timbrado, carta, comunicado ou formulário], em [formato e orientação; A4 vertical se não houver outro formato indicado]. Use branco como base, títulos em azul escuro #182F4E, acento laranja #FE5100 quando ajudar a hierarquia e fonte Zalando Sans. Coloque a assinatura oficial em área livre no cabeçalho e use no rodapé apenas os contatos e dados fornecidos. Reserve uma área ampla para [texto, campos de preenchimento ou assinatura]. Para documentos com várias páginas, use um cabeçalho discreto na continuação e paginação consistente. Entregue .docx editável e PDF para impressão. Confira a legibilidade em tamanho real e, quando a peça for usada em impressora de escritório, em escala de cinza.
+```
+
+### 13. Cartaz, folheto ou ficha para impressão
+
+```text
+Crie a arte final da Werlang para [cartaz, folheto, ficha técnica, cartão de visitas ou outra peça de papelaria], em [largura × altura, orientação e número de faces], para [público e local de uso]. Use o conteúdo fornecido, com título claro, leitura em blocos e branco ou azul escuro como base. Aplique a assinatura oficial e a fonte Zalando Sans no layout. Use [foto, gradiente ou imagem aprovada] se ela ajudar a leitura. Para cartão de visitas, use 90 × 50 mm e consulte o acabamento na p. 10 do manual. Confira sangria, margem de segurança, perfil de cor, resolução e exportação conforme as especificações da gráfica. Registre os itens de produção que ainda precisam de definição. Entregue o arquivo editável e o PDF para a finalidade informada, com texto legível no tamanho real.
+```
+
+## Relatórios completos
+
+Anexe os dados, as fontes e o texto aprovado, quando houver. O [prompt 5](#5-imagem-para-capa-de-relatório-a4) pode gerar a imagem de capa.
+
+### 14. Relatório institucional ou técnico em Word e PDF
+
+```text
+Monte um relatório da Werlang sobre [tema], para [público], referente a [período]. Use somente [texto, arquivos, imagens e fontes fornecidos]. Estruture capa, resumo, seções de conteúdo e, quando necessário, metodologia e anexos. Use branco como base, azul escuro #182F4E em títulos e estrutura, laranja #FE5100 em destaques pontuais e fonte Zalando Sans. Aplique a assinatura oficial na capa. Mantenha títulos, legendas e tabelas editáveis. Identifique unidade, período e fonte de cada tabela ou gráfico. Entregue .docx editável e PDF paginado em [A4 ou formato informado]. Confira cabeçalhos, numeração, legibilidade e quebras de página no arquivo exportado.
+```
+
+### 15. Relatório gerencial ou de acompanhamento
+
+```text
+Crie um relatório de acompanhamento da Werlang para [área e período], a partir de [base e definições dos indicadores]. Abra com os resultados e decisões que o público [público] precisa acompanhar. Mostre [indicadores], comparação com [meta ou período anterior] e ações com responsável e prazo quando informados. Registre fonte, data de atualização, unidade e metodologia de cálculo. Concilie totais com a base, diferencie zero de dado ausente e exponha lacunas que impeçam uma comparação. Use layout branco, cabeçalhos azul escuro, laranja para destaque pontual, Zalando Sans e assinatura oficial. Entregue o relatório editável e a versão em PDF, com gráficos e tabelas legíveis.
+```
+
+## Planilhas e relatórios em Excel
+
+### 16. Planilha operacional para preenchimento
+
+```text
+Crie um arquivo Excel .xlsx da Werlang para [processo], com os campos [lista de campos], regras [validações e cálculos] e uso previsto por [equipe]. Organize os registros em uma tabela com cabeçalhos claros, autofiltro e primeira linha congelada. Diferencie células de entrada e células calculadas por rótulo e formatação. Aplique listas e validações com mensagens claras quando as opções estiverem definidas. Use fórmulas que se estendam a novas linhas e tratem campos vazios. Formate datas, unidades e valores de acordo com o padrão pt-BR. Aplique base branca, cabeçalhos azul escuro #182F4E e laranja #FE5100 com moderação. Use Zalando Sans quando disponível. Inclua uma aba de instruções se o preenchimento exigir etapas. Entregue o .xlsx editável e confira a abertura e o recálculo no Excel. Teste um registro novo e um caso com campos vazios.
+```
+
+### 17. Relatório ou painel em Excel
+
+```text
+Monte um painel Excel .xlsx da Werlang para [público e objetivo] com a base [arquivo ou tabela]. Organize as abas Base e Painel e inclua uma aba de cálculos se isso facilitar a revisão. Use tabelas do Excel e fórmulas ou tabelas dinâmicas adequadas à base. Defina o significado de cada indicador e mostre período, unidade, fonte e data de atualização. Inclua somente filtros úteis para [decisões do público]. Trate vazios, duplicidades e denominadores zero conforme as definições fornecidas, e reconcilie o painel com os totais da base. Use branco, azul escuro #182F4E e acentos laranja #FE5100, com rótulos que também funcionem sem cor. Prepare a aba Painel para leitura em tela e, se for impressa, ajuste área de impressão e repetição dos cabeçalhos. Valide o arquivo com um filtro ativo e com dados atualizados.
+```
+
+## Relatórios e painéis em HTML
+
+### 18. Relatório HTML para leitura e impressão
+
+```text
+Crie um relatório HTML da Werlang sobre [tema e período] a partir de [texto, imagens aprovadas, dados e fontes]. Entregue o arquivo HTML e seus recursos de forma que abra localmente, ou integre-o ao site existente quando indicado. Use a assinatura oficial em SVG, Zalando Sans com fonte alternativa de sistema, fundo branco, títulos em azul escuro #182F4E e laranja #FE5100 para ênfase. Organize a navegação por seções. Use texto selecionável, títulos semânticos, tabelas com cabeçalhos e imagens com descrição quando informativas. Inclua estilos de impressão para A4, com margens, quebras e cabeçalhos de tabela legíveis. Defina o idioma da página como pt-BR e confira o resultado no celular, no desktop e no modo de impressão. Preserve as fontes e unidades junto dos números.
+```
+
+### 19. Painel HTML interativo
+
+```text
+Crie uma visualização HTML da Werlang sobre [tema], para [público e decisão], usando [fonte dos dados e definições]. Mostre [indicadores] e inclua apenas os filtros [lista]. Faça cada filtro atualizar os totais, os gráficos e a tabela de detalhe a partir do mesmo conjunto de registros. Exiba período, unidade, fonte, estado sem resultados e um controle para limpar filtros. Use a assinatura SVG oficial, Zalando Sans, fundo branco, azul escuro #182F4E para estrutura e laranja #FE5100 para ênfase. Use rótulos legíveis, contraste e navegação por teclado. Garanta leitura em celular e desktop, inclusive quando a tabela for larga. Entregue HTML e recursos conforme [uso local ou integração ao site]. Compare os indicadores com os totais da fonte e teste filtros combinados, limpeza e ausência de dados.
+```
+
+## Convites impressos e digitais
+
+Use os dados confirmados do evento. Preencha os campos pendentes antes de distribuir a peça. O mesmo título, data, hora, endereço e canal de confirmação devem aparecer nas versões correspondentes. Indique o fuso quando houver participantes de outras regiões ou evento online.
+
+### 20. Convite impresso e arte para WhatsApp ou e-mail
+
+```text
+Crie um convite da Werlang para [evento], com [anfitrião, data, horário, local, endereço, público e instruções de confirmação]. Use a assinatura oficial e Zalando Sans. Organize a hierarquia em nome do evento, data e horário, local e confirmação. Use branco ou azul escuro #182F4E como base de acordo com [tom do evento] e laranja #FE5100 em acentos quando fizer sentido. Entregue o editável e PDF no [formato impresso] e, se solicitada, uma arte digital legível no celular em [formato]. Ajuste a diagramação de cada versão ao seu tamanho. Para impressão, siga o gabarito da gráfica. Se houver QR code, use o endereço definitivo, mantenha o contato ou link em texto e teste a leitura no tamanho final.
+```
+
+### 21. Página HTML de convite e confirmação
+
+```text
+Crie uma página HTML responsiva de convite da Werlang para [evento e público]. Mostre no primeiro bloco o nome do evento e os dados confirmados de [data, hora e local]. Organize [programação, endereço, instruções de chegada e contato] quando fornecidos. Aplique a assinatura oficial, Zalando Sans e a paleta Werlang, com texto bem contrastado sobre o fundo. Use [link, WhatsApp ou formulário integrado] para confirmar presença. Se houver formulário, use o destino fornecido e mostre confirmações e erros de envio reais. Sinalize no briefing quando o destino da confirmação ainda estiver pendente. Exiba o endereço em texto e ligue ao mapa quando houver um link confirmado. Entregue a página e os recursos para [abertura local, integração ou hospedagem informada]. Confira o layout no celular e no desktop, o foco por teclado e o funcionamento dos links e da confirmação.
+```
+
+### 22. Imagem de capa ou fundo para convite
+
+```text
+Gere a base visual de um convite da Werlang para [tipo de evento e tom], no formato [proporção de impressão ou de tela]. Use [foto verificada, referência editorial ou gradiente oficial] como referência. Crie uma composição com [assunto] em [posição] e uma área ampla e uniforme para título, data e endereço, com fundo branco ou azul escuro conforme a proposta. Use laranja como acento discreto. Mantenha a imagem livre de letras, números, logotipos, QR codes e marcas d’água. Reserve as margens para corte quando for peça impressa e entregue a imagem de base para a diagramação do convite.
+```

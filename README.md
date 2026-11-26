@@ -2,7 +2,7 @@
 
 Acervo da marca Werlang para uso em materiais digitais, peças impressas e uniformes. Consulte o [Manual de Identidade Visual](Manual%20de%20Identidade%20Visual%20Werlang.pdf) antes de aplicar a marca.
 
-O [guia de prompts de imagem](Prompts/README.md) reúne referências do acervo e instruções para gerar imagens para site, relatórios, apresentações, redes sociais e mockups.
+O [guia de prompts da Werlang](Prompts/README.md) reúne referências do acervo e modelos para gerar imagens, criar papelaria e relatórios, montar arquivos Excel, criar visualizações em HTML e preparar convites impressos ou digitais.
 
 | Material | Onde encontrar |
 | --- | --- |
